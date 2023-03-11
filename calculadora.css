@@ -1,0 +1,48 @@
+body{
+    background: salmon;
+
+}
+section#corpo{
+    width: 500px;
+    height:750px;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+}
+div#margem{
+    width: 450px;
+    height:700px;
+    background: rgb(245, 7, 7);
+    border-radius: 15px;
+    margin: auto;
+
+}
+div#resp{
+    border: thin solid;
+    border-radius: 15px;   
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    font: normal 25pt Arial;
+    background-color: white;
+}
+div#num{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    border: thin solid;
+    border-radius: 15px;
+}
+
+.td_centro{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 15px;
+} 
+
+td#td_centr{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 15px;
+} 

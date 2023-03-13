@@ -17,7 +17,7 @@ div#margem{
     margin: auto;
 
 }
-div#resp{
+div#margem_resp{
     border: thin solid;
     border-radius: 15px;   
     width: 400px;
@@ -25,6 +25,7 @@ div#resp{
     margin: auto;
     font: normal 25pt Arial;
     background-color: white;
+    text-align: right;
 }
 div#num{
     margin: auto;
@@ -41,8 +42,8 @@ div#num{
     border-radius: 15px;
 } 
 
-td#td_centr{
+/*td#td_centr{
     text-align: center;
     background-color: aqua;
     border-radius: 15px;
-} 
+} */

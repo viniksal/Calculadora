@@ -1,15 +1,27 @@
+    //Talvez utilizar array? Para o máximo de números a adicionar. Apenas pensando
 
 
-    /*var btn0 = window.document.getElementById('btn0') ISSO FUNCIONA
+    var btn0 = window.document.getElementById('btn0')  //ISSO FUNCIONA
+    var resp = document.getElementById('margem_resp')
 
+    btn0.addEventListener('mousedown', baixo)
+    btn0.addEventListener('mouseup', cima)
     btn0.addEventListener('click', clicar)
 
-    function clicar(){
+    function baixo(){
         btn0.style.background = 'red'; 
-    }*/
+    }
+
+    function cima(){
+        btn0.style.background = 'none'
+    }
+
+    function clicar(){
+        resp.innerText = '0'
+    }
 
 
-   /* var btn = document.querySelectorAll("td");  TENTAR ARRUMAR
+   /* var btn = document.querySelectorAll("td");  TENTAR ARRUMAR - O Objetivo aqui é tentar mudar o background da cédula pelo Js
 
     btn.addEventListener('click', clicar);
 
@@ -17,14 +29,14 @@
         btn.style.backgroundColor = "red";
     }*/
 
-    /*//Para cada elemento <td>...
+    /*//Para cada elemento <td>...  EXEMPLO
     btn.forEach((td) => {
       //...Se texto for "D" colore em vermelho caso contrário colore em verde.
       td.style.backgroundColor = (td.innerText == 'D') ? "red" : "green";
     });*/
 
 
-    /*var btn0 = document.querySelectorAll("td")
+    /*var btn0 = document.querySelectorAll("td") TENTATIVA
 
     btn0.addEventListener('click', clicar)
 
@@ -34,7 +46,7 @@
 
 
         
-        /*a.addEventListener('mousedown', press)
+        /*a.addEventListener('mousedown', press)  ESTÁ SENDO UTILIZADO
         .addEventListener('mouseup', unpress)*/
 
 
